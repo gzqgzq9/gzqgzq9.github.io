@@ -1,9 +1,25 @@
 ---
-title: "Overview"
+title: "Ziqi Guo"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
+## About me
+Hi, this is Ziqi Guo. I am a second year MPH student at Mailman School of Public Health in Columbia University. 
+
+
+## My Hobbies
+*Baking* 
+
+<img src="images/baking1.jpg" style="width: 300px; height: auto;">
+
+
+<img src="images/baking2.jpg" style="width: 300px; height: auto;">
+
+## My Pet
+Juanza!!
+
+<img src="images/juan.jpg" style="width: 300px; height: auto;">
 
