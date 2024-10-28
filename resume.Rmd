@@ -1,12 +1,4 @@
----
-title: "Resume"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
----
-
-### EDUCATION
+### **EDUCATION**
 #### Columbia University	
 * Master of Public Health in Epidemiology (September 2023 – Present)
     * Certificate in Comparative Effectiveness and Outcomes Research (CEOR)
@@ -17,7 +9,7 @@ output:
   		                            	            
 
 	
-### RESEARCH EXPERIENCE
+### **RESEARCH EXPERIENCE**
 #### Implementing Remote Patient Monitoring (RPM) to Improve Hypertension Control 	
 * *Research Assistant* (May 2024 – Present)
 *	Developed model inputs for cost-effectiveness analysis by **creating cost table** and **extracting data** from Bureau of Labor Statistics
@@ -44,7 +36,7 @@ output:
 
 
 
-### WORK EXPERIENCE
+### **WORK EXPERIENCE**
 #### Hunan Province Directly Affiliated TCM Hospital – Department of Cardiovascular Medicine 	Hunan, China
 * *Lab Assistant* (March 2022 – October 2022)
 *	Cooperated with senior lab assistant to **analyze the prevalence, treatment, and control of hypertension of 1018 residents** in Nanqiao Town, Liling City with questionnaire interview, physical examination, and biochemical test
@@ -58,7 +50,7 @@ output:
 *	Learned to use High Performance Liquid Chromatography (HPLC) instrument and Atomic Absorption Spectroscopy (AAS) instrument
 
 
-### ADDITIONAL SKILLS
+### **ADDITIONAL SKILLS**
 *	Bilingual: Chinese (native), English
 *	Programming: **R, SAS, STATA**
 *	Software: proficient in Microsoft Office and **SPSS, TreeAge**

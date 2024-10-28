@@ -1,16 +1,18 @@
 ---
-title: "About me"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-## About me
-Hi, this is Ziqi Guo. I am a second year MPH student at Mailman School of Public Health in Columbia University. 
+## **Overview**
+Hi, this is Ziqi Guo. I am a second year MPH student at Mailman School of Public Health in Columbia University. After I got a bachelor’s degree in Pharmaceutical Science at Purdue University, I worked as a lab assistant at Hunan Province Directly
+Affiliated TCM Hospital and started an impressive journey to explore the mechanism of
+cardiovascular disease and identify its high-risk demographic group, where I confirmed my
+determination to be an epidemiologist in health economics and outcomes research field.
 
 
-## My Hobbies
+## **Hobby**
 *Baking* 
 
 <img src="images/baking1.jpg" style="width: 300px; height: auto;">
@@ -18,14 +20,10 @@ Hi, this is Ziqi Guo. I am a second year MPH student at Mailman School of Public
 
 <img src="images/baking2.jpg" style="width: 300px; height: auto;">
 
-## My Pet
+## **Pet**
 Juanza!!
 
 <img src="images/juan.jpg" style="width: 300px; height: auto;">
 
-## Find me
 
-If you'd like to learn more about my coding work, visit my [Github](https://github.com/gzqgzq9) page.
-
-You can reach me at: <a href="mailto:zg2486@columbia.edu">zg2486@columbia.edu</a>
 
