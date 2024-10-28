@@ -28,3 +28,24 @@ clean_df = ny_noaa %>%
 ```
 
 
+```{r message = FALSE, warning = FALSE}
+clean_df %>% 
+  filter(month == 1) %>% 
+  mutate(
+    month = case_when(
+      month == 1 ~ "January"
+    )
+  ) %>% 
+  group_by(year, month, id) %>% 
+  summarise(mean_tmax = mean(tmax), na.rm = TRUE) %>% 
+  plot_ly(
+    x = ~year, y = ~mean_tmax, type = "scatter", mode = "markers",
+    color = ~id
+  ) %>% 
+  layout(
+    title = "Mean temperature for each station across years for January",
+    xaxis = list(title = "Year"),
+    yaxis = list(title = "Mean Tmax"),
+     showlegend = FALSE
+  )
+```
