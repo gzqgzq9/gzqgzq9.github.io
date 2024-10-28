@@ -1,5 +1,5 @@
 ---
-title: "Ziqi Guo"
+title: "About me"
 output: 
   html_document:
     toc: true
@@ -22,4 +22,10 @@ Hi, this is Ziqi Guo. I am a second year MPH student at Mailman School of Public
 Juanza!!
 
 <img src="images/juan.jpg" style="width: 300px; height: auto;">
+
+## Find me
+
+If you'd like to learn more about my coding work, visit my [Github](https://github.com/gzqgzq9) page.
+
+You can reach me at: <a href="mailto:zg2486@columbia.edu">zg2486@columbia.edu</a>
 
