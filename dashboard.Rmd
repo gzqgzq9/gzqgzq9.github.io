@@ -1,0 +1,30 @@
+---
+title: "Dashboard"
+output: html_document
+---
+
+```{r message = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+```{r}
+data("ny_noaa")
+
+clean_df = ny_noaa %>% 
+  janitor::clean_names() %>% 
+  mutate(
+    year = lubridate::year(date),
+    month = lubridate::month(date),
+    day = lubridate::day(date),
+    prcp = prcp / 10,
+    snow = snow / 10,
+    snwd = snwd / 10,
+    tmax = as.numeric(tmax) / 10,
+    tmin = as.numeric(tmin) / 10
+  )
+```
+
+
