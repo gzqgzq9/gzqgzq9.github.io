@@ -1,6 +1,9 @@
 ---
-title: "Dashboard"
-output: html_document
+title: "Dashboard!"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ```{r message = FALSE}
@@ -28,6 +31,11 @@ clean_df = ny_noaa %>%
 ```
 
 
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Mean temperature for each station across years for January
+
 ```{r message = FALSE, warning = FALSE}
 clean_df %>% 
   filter(month == 1) %>% 
@@ -43,9 +51,48 @@ clean_df %>%
     color = ~id
   ) %>% 
   layout(
-    title = "Mean temperature for each station across years for January",
     xaxis = list(title = "Year"),
     yaxis = list(title = "Mean Tmax"),
      showlegend = FALSE
+  )
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Distribution of Total Snowfall by Month (2008)
+
+```{r message = FALSE, warning = FALSE}
+clean_df %>% 
+  filter(year == 2008) %>%
+  group_by(month, id) %>% 
+  summarise(total_snow = sum(snow, na.rm = TRUE)) %>% 
+  plot_ly(
+    x = ~as.factor(month),
+    y = ~total_snow,
+    type = "box"
+  ) %>%
+  layout(
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Total Snowfall"),
+    showlegend = FALSE
+  )
+
+```
+
+### Mean Precipitation for Station (US1NYAB0001) across Months
+
+```{r message = FALSE, warning = FALSE}
+clean_df %>% 
+  filter(id == "US1NYAB0001") %>% 
+  group_by(month) %>% 
+  summarise(mean_tmax = mean(prcp, na.rm = TRUE)) %>% 
+  plot_ly(
+    x = ~month, y = ~mean_tmax, type = "bar"
+  ) %>% 
+  layout(
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Mean Precipitation")
   )
 ```
