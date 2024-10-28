@@ -1,0 +1,66 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### EDUCATION
+#### Columbia University	
+* Master of Public Health in Epidemiology (September 2023 – Present)
+    * Certificate in Comparative Effectiveness and Outcomes Research (CEOR)
+
+
+#### Purdue University				                     
+* Bachelor of Science in Pharmaceutical Science (August 2017 – May 2020)
+  		                            	            
+
+	
+### RESEARCH EXPERIENCE
+#### Implementing Remote Patient Monitoring (RPM) to Improve Hypertension Control 	
+* *Research Assistant* (May 2024 – Present)
+*	Developed model inputs for cost-effectiveness analysis by **creating cost table** and **extracting data** from Bureau of Labor Statistics
+*	**Designed a target survey** to collect data from 15 clinics to estimate potential cost of implementing RPM intervention
+
+#### Health Economics and Outcomes Research (HEOR)  						     
+* *Undergraduate lab assistant* (January 2020 – May 2020)                                  
+*	Read and summarized journal articles of HEOR, and shared with lab members
+*	Participated in ISPOR-Purdue Chapter seminar
+
+#### Investigational New Drug of YESCARTA (Axicabtagene Ciloleucel, CAR-T Therapy)          
+* *Group Project for Drug Discovery & Development Class II* (January 2020 – May 2020)      
+* Collected and organized manufacturing process and characterization information of YESCARTA
+*	Discussed drug information that are under patent with professors 
+*	Delivered 5 presentations that contain all components of Investigational New Drug of YESCARTA to professors and classmates
+*	Partnered with group members and completed an Investigational New Drug of YESCARTA
+
+#### Therapeutic CXCR2 Inhibitor for Ulcerative Colitis						    
+* *Group Project for Drug Discovery & Development Class I* (August 2019 – December 2019)    
+* Lead the groups to **identify unmet need** and **identified a potential drug target** of Ulcerative Colitis 
+*	Developed project plan to assign work to each group member and track project status 
+*	Scheduled meetings with mentor to discuss project process and solve existing problems
+*	Delivered a presentation proposal to professors and addressed their questions 
+
+
+
+### WORK EXPERIENCE
+#### Hunan Province Directly Affiliated TCM Hospital – Department of Cardiovascular Medicine 	Hunan, China
+* *Lab Assistant* (March 2022 – October 2022)
+*	Cooperated with senior lab assistant to **analyze the prevalence, treatment, and control of hypertension of 1018 residents** in Nanqiao Town, Liling City with questionnaire interview, physical examination, and biochemical test
+*	Identified the differences between Western medicine and Chinese medicine that treat cardiovascular disease 
+*	Organized Cardiovascular Disease Prevention Workshop in various communities 
+
+#### Zhuzhou Institute for Food and Drug Control	Hunan, China
+* *Lab Assistant* (February 2021 – December 2021)
+*	Examined the quality and content of Aspirin Enteric-coated Tablets and Amlodipine Besylate Tablets with control group 
+*	Organized a laboratory open day activity for 30 primary school campus reporters to popularize and enhance the awareness of drug safety 
+*	Learned to use High Performance Liquid Chromatography (HPLC) instrument and Atomic Absorption Spectroscopy (AAS) instrument
+
+
+### ADDITIONAL SKILLS
+*	Bilingual: Chinese (native), English
+*	Programming: **R, SAS, STATA**
+*	Software: proficient in Microsoft Office and **SPSS, TreeAge**
+
+
